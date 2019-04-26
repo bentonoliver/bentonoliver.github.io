@@ -1,0 +1,45 @@
+#
+# This file contains configuration flags to customize your site
+#
+
+
+name: Oliver Benton
+description: Technical Writer
+avatar: https://avatars3.githubusercontent.com/u/37402943?s=400&u=4cd69b01086aa626659c2c30ec9cb9ea3fdfea3e&v=4
+
+footer-links:
+  dribbble:
+  email: oliver@benton.cz
+  facebook:
+  flickr:
+  github:
+  instagram: oliverbenton42
+  linkedin:
+  pinterest:
+  twitter: OliverWEBenton
+  youtube: # channel/<UCz-UIIJzKVYI9lmzMqWf4yA>
+
+
+permalink: /:title/
+version: v1.2.0
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+
+sass:
+  style: :expanded
+
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
